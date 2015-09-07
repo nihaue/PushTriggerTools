@@ -135,7 +135,7 @@ might end up with an implementation that looks like this:
 
 # What would this look like in my code in the application where push events originate?
 
-To get started, you will need to [install the **QuickLearn.LogicApps.PushClient** NuGet package](https://www.nuget.org/packages/QuickLearn.LogicApps.PushTrigger/), and you will need to [install the **TRex** NuGet package](https://www.nuget.org/packages/TRex/).
+To get started, you will need to [install the **QuickLearn.LogicApps.PushClient** NuGet package](https://www.nuget.org/packages/QuickLearn.LogicApps.PushClient/), and you will need to [install the **TRex** NuGet package](https://www.nuget.org/packages/TRex/).
 
 Just like on the server side (within your push trigger API App), one of the key tasks within your client app will be to
 interact with the callback store. In this case, the **IClientCallbackStore** interface is provided. A sample implementation
