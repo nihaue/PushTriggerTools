@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLearn.LogicApps.PushClient", "QuickLearn.LogicApps.PushClient\QuickLearn.LogicApps.PushClient.csproj", "{40CACBCE-3535-4B66-A019-19C054AABA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickLearn.LogicApps.PushTrigger", "QuickLearn.LogicApps.PushTrigger\QuickLearn.LogicApps.PushTrigger.csproj", "{0C53C257-C193-4AFC-A9DE-EE7C5710A295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{11A97ECB-5124-4D78-ABC0-120B4C0FC670}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40CACBCE-3535-4B66-A019-19C054AABA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CACBCE-3535-4B66-A019-19C054AABA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CACBCE-3535-4B66-A019-19C054AABA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CACBCE-3535-4B66-A019-19C054AABA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C53C257-C193-4AFC-A9DE-EE7C5710A295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C53C257-C193-4AFC-A9DE-EE7C5710A295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C53C257-C193-4AFC-A9DE-EE7C5710A295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C53C257-C193-4AFC-A9DE-EE7C5710A295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
