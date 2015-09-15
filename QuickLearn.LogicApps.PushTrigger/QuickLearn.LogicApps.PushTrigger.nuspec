@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>QuickLearn.LogicApps.PushTrigger</id>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <title>QuickLearn Push Trigger Tools</title>
     <authors>Nick Hauenstein</authors>
     <owners>Nick Hauenstein</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/nihaue/PushTriggerTools</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Provides a standard interface for interacting with a push trigger callbacks storage mechanism, allowing push triggers to be implemented as pure boilerplate code plus an implementation of ICallbackStore.</description>
-    <releaseNotes>- Initial release</releaseNotes>
+    <releaseNotes>- Re-targeted to .NET 4.5 from .NET 4.6</releaseNotes>
     <copyright>Copyright 2015</copyright>
     <tags>Push Triggers API Apps Logic Apps Azure App Service</tags>
   </metadata>
